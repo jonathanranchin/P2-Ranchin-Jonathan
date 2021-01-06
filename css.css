@@ -1,0 +1,10 @@
+
+#elementHeadergauche {
+    float:left;
+  }
+  #elementHeaderdroite {
+    float:right;
+    margin-top: -40px; 
+    color: violet;
+  }
+ 
