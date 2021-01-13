@@ -95,6 +95,12 @@ padding: 0px;
 .sousTitreODR{
   color: grey;
   }
+.filtrederecherche{
+ margin: 0px;
+}
+.filtreDeRechercheBar{
+  margin: 15px;
+}
 .filtreDeRechercheContainer {
   display: flex;
   flex-direction: row;
@@ -105,20 +111,19 @@ padding: 0px;
   }
 .figureFiltreDeRecherche{
   background-color: white; 
-  border: solid 2px;
+  border: solid 1px;
   border-color: lightgrey;
-  padding: 10px;
-  border-radius: 50px;
-  margin: 5px;
+  padding: 5px;
+  border-radius: 90px;
+  margin: -2px;
   }
 .iconesvg{
   width: 20px;
   height: 20px;
-  color:blue;
   background-color: white;
   border: grey;
   border-width: 2px;
-  margin: 10 px;
+  margin: 19 px;
   }
 .iconesvgGPS{
   width: 20px;
@@ -126,7 +131,7 @@ padding: 0px;
   color:blue;
   background-color: white;
   border: grey;
-  border-width: 2px;
+  border-width: 20px;
   left: 5px;
   margin: 10 px;
     }
@@ -242,4 +247,8 @@ padding: 0px;
     padding: 0px;
     margin: 10px;
     font-weight: bold;
+  }
+  .nav-barRightHeader{
+    margin-left: 10px;
+    margin-right: 10px;
   }
